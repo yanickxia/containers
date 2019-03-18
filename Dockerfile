@@ -5,7 +5,6 @@ MAINTAINER yann.xia<me.yan.xia@qq.com>
 # ADD sources.list /etc/apt/
 
 # instal tcpdump
-RUN apt update; apt install -y tcpdump nc curl 
+RUN apt update; apt install -y tcpdump netcat curl 
 
 CMD ["sleep", "1000"]
-  
