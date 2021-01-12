@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   jenkins:
-    image: jenkins/jenkins:lts
+    image: registry.cn-hangzhou.aliyuncs.com/jenkins/jenkins:lts
     privileged: true
     user: root
     ports:
